@@ -20,7 +20,7 @@
         B --> C(Vector)
         B --> D(Triangle)
         B --> E(Parallelogram)
-        D --> E(Parallelogram)
+        C --> E(Parallelogram)
         E --> F(Rectangle)
         B --> G(Circle)
     ```
