@@ -18,11 +18,11 @@
     graph TD
         A(MyBasicObject) --> B{MyPoint}
         B --> C(Vector)
-        B --> C(Triangle)
-        B --> D(Parallelogram)
-        C --> D(Parallelogram)
-        D --> E(Rectangle)
-        B --> F(Circle)
+        B --> D(Triangle)
+        B --> E(Parallelogram)
+        D --> E(Parallelogram)
+        E --> F(Rectangle)
+        B --> G(Circle)
     ```
 3. Sort: 三种排序方法（选择排序、快速排序、堆排序）
 
