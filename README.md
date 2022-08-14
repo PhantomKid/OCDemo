@@ -3,18 +3,18 @@
 **这是一个非常小的练习性质的oc项目demo，在这个项目中练习了property关键词、Block和容器、三种不稳定排序（选择排序、快速排序、堆排序）的使用**
 
 ## 项目结构
-|———— README.md
-|———— OCTraining
-        |———— main.m
-        |———— Shape.h
-        |———— Shape.m
-        |———— Sort.h
-        |———— Sort.m
+    |———— README.md
+    |———— OCTraining
+            |———— main.m
+            |———— Shape.h
+            |———— Shape.m
+            |———— Sort.h
+            |———— Sort.m
 
 ## 项目逻辑介绍
 1. main: 主函数入口，测试代码和展示功能
 2. Shape: 几何图形类
-    graph Shape
+    graph TD
         A(MyBasicObject) --> B{MyPoint}
         B --> C(Vector)
         B --> C(Triangle)
