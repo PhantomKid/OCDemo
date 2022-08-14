@@ -34,4 +34,5 @@
 - Block:
     1. 对几何图形的变换操作是通过Block传递的
     2. 对非标量变量的排序规则是通过Block定义的
+- 多种容器(NSArray, NSMutableArray, NSDictionary等)的使用在main.m的Test类的containerTest测试函数中涉及
 - 三种不稳定排序方法在Sort中已经给出
